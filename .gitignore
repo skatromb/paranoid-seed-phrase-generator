@@ -1,7 +1,2 @@
-*.pyc
-build/
-dist/
-mnemonic.egg-info/
-.tox/
-.venv/
-.python-version
+/.idea/
+/output/

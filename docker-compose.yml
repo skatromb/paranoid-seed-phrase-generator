@@ -1,0 +1,12 @@
+services:
+  seed-phrase-generator:
+    image: seed-phrase-generator
+    build:
+      context: .
+    volumes:
+      - ./output/:/usr/app/output/
+    networks: [no-internet]
+
+networks:
+  no-internet:
+    internal: true
